@@ -1,0 +1,3 @@
+npm i   // установка всех плагинов
+line-height / font-size*100 // пересчёт в проценты
+npm run dev/build
