@@ -1,0 +1,77 @@
+// Импорт шрифтов     &display=swap&subset=cyrillic-ext
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap&subset=cyrillic-ext);
+
+// Импорт шрифтов
+
+
+
+
+// Подключение других scss
+
+@import "reset";
+@import "vars";
+@import "mixin";
+
+// Подключение других scss
+
+
+
+
+// Оболочка
+
+body {
+    font-family: $fontFamily;
+    max-width: $maxWidth;
+    min-width: $minWidth;
+    font-size: 1.4rem;
+    color: $white;
+
+    &._lock {
+        overflow: hidden;
+    }
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+// Оболочка
+
+
+
+
+// Контейнер
+
+._container {
+    max-width: $maxWidthContainer;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 5rem;
+    @include breakpoint($md3 + px) {
+        padding: 0 1.5rem;
+    }
+}
+
+.rub:after {
+    content: "₽";
+}
+
+// Контейнер
+
+
+
+// Основные стили
+
+
+
+// Основные стили
+
