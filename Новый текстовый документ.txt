@@ -1,3 +1,49 @@
 npm i   // установка всех плагинов
 line-height / font-size*100 // пересчёт в проценты
 npm run dev/build
+
+//===============settings vscode=================//
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 14,
+    "editor.comments.insertSpace": false,
+    "editor.detectIndentation": false,
+    "editor.hover.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.formatOnSave": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    //"terminal.external.windowsExec": "C:\\programs\\git\\Git\\git-bash.exe",
+    "path-autocomplete.pathMappings": {
+        "@img": "${folder}/src/img",
+        "@scss": "${folder}/src/scss",
+        "@js": "${folder}/src/js",
+    },
+    //"terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "emmet.excludeLanguages": [],
+    "emmet.showSuggestionsAsSnippets": true,
+    "settingsSync.ignoredSettings": [
+        "-emmet.extensionsPath"
+    ],
+}
