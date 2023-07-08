@@ -9,6 +9,7 @@ const srcFolder = `./src`;
 export const path = {
     build: {
         js: `${buildFolder}/js/`,
+        scriptJs: `${srcFolder}/js/script.js`,
         images: `${buildFolder}/img/`,
         css: `${buildFolder}/css/`,
         html: `${buildFolder}/`,
@@ -18,6 +19,7 @@ export const path = {
     },
     src: {
         js: `${srcFolder}/js/app.js`,
+        scriptJs: `${srcFolder}/js/script.js`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
         svg: `${srcFolder}/img/**/*.svg`,
         scss: `${srcFolder}/scss/style.scss`,
@@ -28,6 +30,7 @@ export const path = {
     },
     watch: {
         js: `${srcFolder}/js/**/*.js`,
+        scriptJs: `${srcFolder}/js/script.js`,
         images: `${srcFolder}/img/**/*.{jpg,svg,jpeg,png,gif,webp}`,
         scss: `${srcFolder}/scss/**/*.scss`,
         html: `${srcFolder}/**/*.html`,
@@ -38,4 +41,4 @@ export const path = {
     buildFolder: buildFolder,
     srcFolder: srcFolder,
     ftp: `test`
-  }
+}
